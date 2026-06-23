@@ -44,5 +44,17 @@ namespace LoginDetailsSql
             txtpasswrd.Text = "";
             con.Close();
         }
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Update userlogs set username='" + txtusrnme.Text + "'Where upassword='" + txtpasswrd.Text + "'", con);
+            cmd.ExecuteNonQuery();
+            lblmsg1.Text = "Record Update Sucessfully";
+            lblmsg1.ForeColor = System.Drawing.Color.Green;
+            txtusrnme.Text = "";
+            txtpasswrd.Text = "";
+            con.Close() ;
+        }
     }
 }

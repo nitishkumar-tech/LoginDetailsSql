@@ -35,6 +35,7 @@
             this.txtpasswrd = new System.Windows.Forms.TextBox();
             this.lblmsg1 = new System.Windows.Forms.Label();
             this.btndelete = new System.Windows.Forms.Button();
+            this.btnupdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblusrnm
@@ -102,11 +103,24 @@
             this.btndelete.UseVisualStyleBackColor = false;
             this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
+            // btnupdate
+            // 
+            this.btnupdate.BackColor = System.Drawing.SystemColors.Info;
+            this.btnupdate.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.btnupdate.Location = new System.Drawing.Point(559, 231);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(75, 23);
+            this.btnupdate.TabIndex = 7;
+            this.btnupdate.Text = "Update";
+            this.btnupdate.UseVisualStyleBackColor = false;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnupdate);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.lblmsg1);
             this.Controls.Add(this.txtpasswrd);
@@ -130,6 +144,7 @@
         private System.Windows.Forms.TextBox txtpasswrd;
         private System.Windows.Forms.Label lblmsg1;
         private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnupdate;
     }
 }
 
