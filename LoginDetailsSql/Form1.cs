@@ -36,7 +36,7 @@ namespace LoginDetailsSql
         private void btndelete_Click(object sender, EventArgs e)
         {
             con.Open();
-            SqlCommand cmd=new SqlCommand("Delete from userlogs where username='" +txtusrnme.Text + "'", con);
+            SqlCommand cmd=new SqlCommand("Delete from userlogs where username='" +txtusrnme.Text + "'and upassword='" + txtpasswrd.Text + "'", con);
             cmd.ExecuteNonQuery();
             lblmsg1.Text = "Record deleted Sucessfully";
             lblmsg1.ForeColor = System.Drawing.Color.Red;

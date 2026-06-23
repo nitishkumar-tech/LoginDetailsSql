@@ -56,7 +56,7 @@
             // 
             // btnsubmit
             // 
-            this.btnsubmit.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnsubmit.BackColor = System.Drawing.SystemColors.Window;
             this.btnsubmit.ForeColor = System.Drawing.Color.Red;
             this.btnsubmit.Location = new System.Drawing.Point(301, 231);
             this.btnsubmit.Name = "btnsubmit";
@@ -85,7 +85,7 @@
             // lblmsg1
             // 
             this.lblmsg1.AutoSize = true;
-            this.lblmsg1.Location = new System.Drawing.Point(193, 278);
+            this.lblmsg1.Location = new System.Drawing.Point(59, 257);
             this.lblmsg1.Name = "lblmsg1";
             this.lblmsg1.Size = new System.Drawing.Size(44, 16);
             this.lblmsg1.TabIndex = 5;
@@ -93,9 +93,9 @@
             // 
             // btndelete
             // 
-            this.btndelete.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btndelete.BackColor = System.Drawing.SystemColors.Menu;
             this.btndelete.ForeColor = System.Drawing.Color.Purple;
-            this.btndelete.Location = new System.Drawing.Point(425, 231);
+            this.btndelete.Location = new System.Drawing.Point(533, 231);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(75, 23);
             this.btndelete.TabIndex = 6;
@@ -107,7 +107,7 @@
             // 
             this.btnupdate.BackColor = System.Drawing.SystemColors.Info;
             this.btnupdate.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.btnupdate.Location = new System.Drawing.Point(559, 231);
+            this.btnupdate.Location = new System.Drawing.Point(414, 231);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(75, 23);
             this.btnupdate.TabIndex = 7;
